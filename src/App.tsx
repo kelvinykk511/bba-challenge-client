@@ -22,7 +22,6 @@ function App() {
             )
           })
         }
-        <CryptoDetailCard detail={cryptoDetail.bitcoinDetail} />
       </Row>
     </div>
   );
