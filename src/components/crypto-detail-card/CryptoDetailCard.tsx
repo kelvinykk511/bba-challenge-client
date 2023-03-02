@@ -3,9 +3,6 @@ import { Card, Col, Row } from "antd";
 import "./CryptoDetailCard.css"
 
 const CryptoDetailCard: React.FC<any> = (props: any) => {
-    useEffect(()=>{
-        console.log(`Rendered: ${props.detail?.name}}`);
-    })
     return (
         <Card>
             <Row>
